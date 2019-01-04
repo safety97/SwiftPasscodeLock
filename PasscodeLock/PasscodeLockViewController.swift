@@ -75,7 +75,7 @@ open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegat
 
     // MARK: - View
   
-  override var preferredStatusBarStyle: UIStatusBarStyle {
+  override open var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }
 
