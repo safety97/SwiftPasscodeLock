@@ -74,6 +74,10 @@ open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegat
     }
 
     // MARK: - View
+  
+  override var preferredStatusBarStyle: UIStatusBarStyle {
+    return .lightContent
+  }
 
     open override func viewDidLoad() {
         super.viewDidLoad()
